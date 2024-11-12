@@ -10,7 +10,7 @@ namespace stackOOP
     {
         private int top;
         private object[] stack;
-        public static int stackCount = 0;
+        public static int stackCount = 0;//counts the number of stacks created
 
         public StackClass(int stack_size)
         {
